@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;}
+header::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 5px;
+  background-color: white;
+}
+nav a:hover {
+  text-decoration: underline !important;
+}
+.post {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.post .btn-primary:hover {
+  background-color: #0056b3 ;
+}
+.sidebar ul li a:hover {
+  text-decoration: underline !important;
+}
+.top{
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 20px;
+}
